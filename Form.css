@@ -1,0 +1,72 @@
+h1 {
+    font-size: 4rem;
+    color: darkblue;
+    margin-bottom: 1.2rem;
+}
+form input {
+    width: 300px;
+    height: 35px;
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background: #e4e4e4;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+form input:hover {
+    background-color: #cac7c7;
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+}
+button {
+    font-size: 1.5rem;
+    margin-top: 1.9rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 270px;
+    color: #fff;
+    cursor: pointer;
+    background: rgb( 17, 107, 143);
+}
+button:hover {
+    background: 17, 107, 143, 0.877;
+}
+input:focus {
+    border: rgb(2, 105, 131);
+}
+.terms {
+    margin-top: 0.2rem;
+}
+.terms input {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label {
+    font-size: 0.7rem;
+    color: rgb(255, 255, 255);
+}
+.terms a {
+    text-decoration: none;
+    color: rgb(239, 255, 8);
+}
+.member {
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin-top: 1.4rem;
+}
+.member a {
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+}
+body {
+    border: 2px solid rgb(177, 177, 177);
+    width: 30%;
+    margin-left: 450px;
+    background-color: rgb(11, 126, 126);
+}
